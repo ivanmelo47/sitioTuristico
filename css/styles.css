@@ -100,11 +100,13 @@ div.galeria {
 div.galeria img {
     width: 100%;
     height: auto;
+    border-radius: 15px;
 }
 
 div.galeria:hover {
     border: 1px solid lightcoral;
     transform: rotate(-3deg);
+    border-radius: 15px;
 
 }
 
@@ -113,4 +115,5 @@ div.pie{
     text-shadow: 2px 2px 5px purple;
     padding: 10px;
     font-size: 40px;
+    border-radius: 15px;
 }
