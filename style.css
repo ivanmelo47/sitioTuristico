@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    
+}
+
+body{
+    margin-top:5px ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background:linear-gradient(to top, #30cfd0 0%, #330867 100%);;
+
+
+}
+.titulo{
+    color: #000;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    font-family: 'Tiro Devanagari Hindi', serif;
+   
+}
+.formulario{
+  background-color: #fff;
+  align-content: center;
+  width: 40%;
+  align-items: center;
+  margin: auto;
+  opacity: 90%;
+  border-radius: 15px;
+  padding: 76px;
+  margin-bottom: 35px;
+  margin-top: -3px;
+
+}
+
+.entradas{
+    margin-right: 10px;
+    width: 100%;
+    margin-top: 20px;
+    height: 42px;
+    border-radius: 8px;
+    border: 2px solid;
+    border-color: #330867;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(179, 174, 174);
+    color: #000;
+    font-size: 18PX;
+}
+.entradas{
+    margin-right: 10px;
+    width: 100%;
+    margin-top: 20px;
+    height: 42px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #000;
+    font-size: 18PX;
+}
+.entradas2{
+    margin-right: 10px;
+    width: 100%;
+    margin-top: 20px;
+    height: 42px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #000;
+    font-size: 18PX;
+}
+.registro{
+  background-color:  #330867 ;
+align-content: center;
+    margin: auto;
+    width: 84%;
+    margin-left: 35px;
+    margin-top: 22px;
+   height: 45px;
+   font-size: 18px;
+   border-radius: 19px;
+   color: aliceblue;
+   cursor: pointer;
+}
+@media(max-width:900px){
+  .formulario{
+    width: 100%;
+  }
+}
